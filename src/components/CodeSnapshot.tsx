@@ -2,6 +2,7 @@ import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
 import CodeBadge from "./CodeBadge";
 import { truncateAddress } from "../utils/address";
+import { MRI } from "../utils/constants";
 
 interface CodeSnapshotProps {
   snapshot: number;
@@ -37,7 +38,7 @@ export default function CodeSnapshot({
         <div className="bg-gray-800 rounded p-4 mb-4" key={i}>
           {Boolean(record.mri) && (
             <div className="font-bold mb-1 overflow-ellipsis">
-              MRI {record.mri}
+              MRI {record.mri}: {MRI[record.mri || 0]}
             </div>
           )}
 
@@ -52,10 +53,15 @@ export default function CodeSnapshot({
             <CodeBadge>
               {record.weight.toLocaleString("en-US")} Weight
             </CodeBadge>
-            <CodeBadge>
-              {parseInt(record.impliedValue.toFixed(0)).toLocaleString("en-US")}
-              $ Implied
-            </CodeBadge>
+
+            {record.impliedValue > 0 && (
+              <CodeBadge>
+                {parseInt(record.impliedValue.toFixed(0)).toLocaleString(
+                  "en-US"
+                )}
+                $ Implied
+              </CodeBadge>
+            )}
           </div>
         </div>
       ))}
