@@ -1,5 +1,4 @@
 import { Checkbox } from "antd";
-import React from "react";
 import { MRI } from "../utils/constants";
 import { useFilterReducer } from "../reducer/FilterReducer";
 import Search from "antd/es/input/Search";

@@ -1,6 +1,5 @@
-import { Button, Checkbox, Modal } from "antd";
-import React, { useState } from "react";
-import { MRI } from "../utils/constants";
+import { Button, Modal } from "antd";
+import { useState } from "react";
 import { useFilterReducer } from "../reducer/FilterReducer";
 import Search from "antd/es/input/Search";
 import FilterView from "./FilterView";

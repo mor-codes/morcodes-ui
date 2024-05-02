@@ -22,7 +22,7 @@ function App() {
           <FilterViewMobile></FilterViewMobile>
         </div>
 
-        <div className="container lg:max-w-3xl xl:max-w-4xl mx-auto p-5">
+        <div className="container lg:max-w-3xl xl:max-w-5xl 2xl:max-w-6xl mx-auto p-5">
           {filter.snapshot[4] && (
             <CodeSnapshot snapshot={4} impliedValue={0}></CodeSnapshot>
           )}
