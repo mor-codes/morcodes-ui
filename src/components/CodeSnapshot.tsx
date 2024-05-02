@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import CodeBadge from "./CodeBadge";
 import { truncateAddress } from "../utils/address";
 import { MRI } from "../utils/constants";
+import { applyFilter, useFilterReducer } from "../reducer/FilterReducer";
 
 interface CodeSnapshotProps {
   snapshot: number;
@@ -14,6 +15,7 @@ export default function CodeSnapshot({
   impliedValue,
 }: CodeSnapshotProps) {
   const [records, setRecords] = useState<CodeSnapshotItem[]>([]);
+  const [filter] = useFilterReducer()
 
   const fetchRecords = useCallback(async () => {
     const response = await axios.get(
@@ -27,6 +29,8 @@ export default function CodeSnapshot({
     fetchRecords();
   }, []);
 
+  const filteredRecords = applyFilter(records, filter)
+
   return (
     <div className="mb-12">
       <div className="mb-4">
@@ -34,7 +38,7 @@ export default function CodeSnapshot({
         {impliedValue > 0 && <div>Implied Value: {impliedValue}$</div>}
       </div>
 
-      {records.map((record, i) => (
+      {filteredRecords.map((record, i) => (
         <div className="bg-gray-800 rounded p-4 mb-4" key={i}>
           {Boolean(record.mri) && (
             <div className="font-bold mb-1 overflow-ellipsis">
