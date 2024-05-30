@@ -1,10 +1,10 @@
 walletAddress,mri,mriSecondary,linkToWork,weight,weightPrimary,weightSecondary,impliedValue,description
-0xf93de9fb07f5762a1e3db9a5c687595111928d77,16000,0,NoiseColor,0,0,16000,0,[MRC28 Thread](https://discord.com/channels/1151741790408429580/1220404152165994648) [Link to prototype](https://www.figma.com/proto/Vl5nU87wTIHk78KWJGh6xl/Morpheus?page-id=38%3A48&type=design&node-id=98-4005&viewport=1327%2C-927%2C0.16&t=z0DHtCOraZjmmluK-1&scaling=min-zoom&starting-point-node-id=98%3A4005)\
+0xf93de9fb07f5762a1e3db9a5c687595111928d77,9,0,NoiseColor,16000,16000,0,12528,[MRC28 Thread](https://discord.com/channels/1151741790408429580/1220404152165994648) [Link to prototype](https://www.figma.com/proto/Vl5nU87wTIHk78KWJGh6xl/Morpheus?page-id=38%3A48&type=design&node-id=98-4005&viewport=1327%2C-927%2C0.16&t=z0DHtCOraZjmmluK-1&scaling=min-zoom&starting-point-node-id=98%3A4005)\|
 0xe70Ac2bAFdcD047B34dfB4B056bFDb941b91b0c9,9,0,dorianjanezic,4000,4000,0,3132,"https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC28.md, https://morpheus.info.gf/"
 0x5160E91cD5D6b8c3cb5103bE4C470eaC6f123f03,4,0,Crash42069,30000,30000,0,23490,https://github.com/MorpheusAIs/Docs/pull/238
 0x65DF6F7E5897b033CAcF77447f0fe274aa03B156,4,0,Potentiated,30000,30000,0,23490,https://github.com/MorpheusAIs/Docs/blob/main/Asset/Design%20Library.md
 0x147D486BE9d39cB92c1FB46e6a0F13e5E057A9e6,3,0,quertc,650,650,0,508.95000000000005,https://github.com/MorpheusAIs/Morpheus/issues/662
-0xE4708c48B2E1FDee9DD60A08F3E89aee45B93906,30000,0,Tigerbuidl,0,0,30000,0,"Built Morpheus FAQ, Helped create FAQs page for Discord, Edited FAQs page in Discord, Helped create Levels and tiers system in Discord, and gave feedback on MRC31. \"
+0xE4708c48B2E1FDee9DD60A08F3E89aee45B93906,4,0,Tigerbuidl,30000,30000,0,23490,"Built Morpheus FAQ, Helped create FAQs page for Discord, Edited FAQs page in Discord, Helped create Levels and tiers system in Discord, and gave feedback on MRC31. \|"
 0x62aF7c48Cf412162465A8CaFdE44dFb17bA96038,4,0,antonbosss,175000,175000,0,137025,https://github.com/MorpheusAIs/Docs/pull/229/files
 0xf77609476f217333Ccc6f4a057B754d474512734,2,0,cliffordattractor,53133,53133,0,41603.139,https://github.com/cliffordattractor/morpheus-swap-agent
 0x8C08714e5EC2b6A14a7Ce342d88B8F56Cc6b2063,2,0,cliffordattractor,200000,200000,0,156600,https://github.com/cliffordattractor/morpheus-ui
@@ -31,9 +31,9 @@ walletAddress,mri,mriSecondary,linkToWork,weight,weightPrimary,weightSecondary,i
 0xa13984862467DCaa12c47b849C5Da4cB3a8d0915,1,0,rcondron,100000,100000,0,78300,[Morpheus Architecture Guidance Doc](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Morpheus%20Lumerin%20Model.md)
 0x6D6d9D52b738CCe563760Cc056037B56EBc2A302,8,0,betterbrand,89000,89000,0,69687,"MRI 8 Mor.software, NFA, d-Dgit, vendors, Maintenance, MRI 3 - local repo rework"
 0x3B02Ae8fc52398deBb4F384254295856769f034C,8,0,kurrent,15000,15000,0,11745,Radicle node maintenance x2
-0x478aC52c212d5e98EdF0e5877f50AfF38f1f647E,,0,Taddy,,1,0,,Project Integrations \
-0xb3fDCCE55C5452F9E9F9dd7713a4B28dAae90bc3,,0,Todd,,1,0,,Project Integrations \
-0x0d00486197600e94876C3D4542dDe6703a9018E4,,0,Joey,,1,0,,Project Integrations \
+0x478aC52c212d5e98EdF0e5877f50AfF38f1f647E,5,0,Taddy,10000,10000,0,7830,Project Integrations \| Management \| Operations
+0xb3fDCCE55C5452F9E9F9dd7713a4B28dAae90bc3,5,0,Todd,10000,10000,0,7830,Project Integrations \| Management \| Operations
+0x0d00486197600e94876C3D4542dDe6703a9018E4,5,0,Joey,10000,10000,0,7830,Project Integrations \| Management \| Operations
 0xc85152977efb0139817978191aabFf5F6D123E23,8,0,Maxin,15000,15000,0,11745,Maxin team dev reward.
 0xDFB5B33A8C82946c3746e603b11DFF1e4f958Af9,8,0,Maxin,15000,15000,0,11745,Maxin team founder reward.
 0x32B4D51612B6c01Dd74FC9136d0412A1f51229C5,8,0,Maxin,15000,15000,0,11745,Maxin team dev reward.
@@ -42,21 +42,21 @@ walletAddress,mri,mriSecondary,linkToWork,weight,weightPrimary,weightSecondary,i
 0xBD0082270d737f57260295B83A36762b3F226a33,8,0,Manifest/TLI,30000,30000,0,23490,Manifest and Lifted team initial reward.
 0x6A7D9B0A21649C33B019baEE7DaC5ac358147F86,9,0,Erik Voorhees,92275,92275,0,72251.325,"Decentralized AI day event - Austin April smart contract work portion, $9,500.00, Beard invoice 4 - 95 hrs @ $100 - rebuild of mor.org site"
 0x682AA10aE360Dd84AFF56E121D77bD6BE0ca04f3,7,0,Casey,50000,50000,0,39150,"Morpheus <> Akash inference setup build/test/debug, Denver, NY meetings"
-0x0e50f6bc9691BB5c56eA4775322b177b655805c0,92275,0,https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md,,0,92275,,"Research Reports C, D on Mor20 initiatives; Impact and Collaborations \"
+0x0e50f6bc9691BB5c56eA4775322b177b655805c0,6,0,https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Contributor%20Best%20Practices.md,92275,92275,0,72251.325,"Research Reports C, D on Mor20 initiatives; Impact and Collaborations \| Liquidity Rollout"
 0x5AC99845F4cA036Fe51b9944f87C746e995ED2bB,4,0,Jungle Clown 3,31928,31928,0,24999.624,Buildout of Test Tokens for Launch Simulation; Testing and Pool Creations
-0x14C466480EE6d3388885FFAA850262B3984F76e1,102275,0,https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/BuildersGuide.md,,0,102275,,"Code, Review of Papers, Decentralizd AI Day NY \"
-0x2Adb069F346E7DF42Db04f3f10005F5180e410E3,4469,0,RC - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,,0,4469,,MOR20 Reseach \
-0x5248079a03FfEA97aEa9e86a0721f8090619D036,,0,@wil - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,,1,0,,MOR20 Reseach \
-0x98eFf980C57c9D333340b3856481bF7B8698987c,4469,0,Swamp - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,,0,4469,,MOR20 Reseach \
+0x14C466480EE6d3388885FFAA850262B3984F76e1,6,0,https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/BuildersGuide.md,102275,102275,0,80081.325,"Code, Review of Papers, Decentralizd AI Day NY \| Spaces"
+0x2Adb069F346E7DF42Db04f3f10005F5180e410E3,6,0,RC - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,4469,4469,0,3499.2270000000003,MOR20 Reseach \| Decentralized AI Day NY
+0x5248079a03FfEA97aEa9e86a0721f8090619D036,6,0,@wil - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,19157,19157,0,14999.931,MOR20 Reseach \| Decentralized AI Day NY \| Onboarding & Nouns Integration
+0x98eFf980C57c9D333340b3856481bF7B8698987c,6,0,Swamp - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,4469,4469,0,3499.2270000000003,MOR20 Reseach \| Decentralized AI Day NY
 0x2342A84Cbb0b5bD5069c3cCaD3347E416167D217,6,0,Anon - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,82275,82275,0,64421.325000000004,Anon
-0x6FdD92e55D5C2495F771296404BEa4890cec4599,4469,0,MRI 2/Mor20 - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,,0,4469,,MOR20 Reseach \
-0x311FFbcAAD242519ABa4736cb695F28cfe3CB9Bc,4469,0,Eric - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,,0,4469,,MOR20 Reseach \
-0x9c04D5b22D2A591585Ed0d5A5A07F13f59Ccd03e,5000,0,ALumerin - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,,0,5000,,Decentralized AI \
-0x95a963E1dEB75D0db2172Ac772302EfbA0125B48,20000,0,Florin Digital,,0,20000,,TCM and Capital Integrations \
+0x6FdD92e55D5C2495F771296404BEa4890cec4599,6,0,MRI 2/Mor20 - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,4469,4469,0,3499.2270000000003,MOR20 Reseach \| Decentralized AI Day NY
+0x311FFbcAAD242519ABa4736cb695F28cfe3CB9Bc,6,0,Eric - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,4469,4469,0,3499.2270000000003,MOR20 Reseach \| Decentralized AI Day NY
+0x9c04D5b22D2A591585Ed0d5A5A07F13f59Ccd03e,6,0,ALumerin - https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/TechnoCapitalMachineTCM.md,5000,5000,0,3915,Decentralized AI \| Austin
+0x95a963E1dEB75D0db2172Ac772302EfbA0125B48,1,0,Florin Digital,20000,20000,0,15660,"TCM and Capital Integrations \| Synapse, Lightpoint, Republic, Florin Digital, Castle Island"
 0x85315CeBaC3A6Fe8eDfaa42f10B7Edbc0062F548,1,0,https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md,30000,30000,0,23490,Capital Defense
-0xbd7aD02ec306781055d498753bc415C55da04E33,5000,0,https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md,,0,5000,,MOR20 Reseach \
-0x8388298D1B9601CE2da78127605570b4878f2cFa,,0,https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Multisig.md,,1,0,,Protection \
-0xa95ef910672541c897E4cC2C76E8e68F9aaD00E8,,0,https://github.com/ 4MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/ 4Top%2010%20Reasons%20People%20Get%20Excited%20About%20Morpheus.md,,0,1,,4Project Integrations \
+0xbd7aD02ec306781055d498753bc415C55da04E33,6,0,https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Protection%20Fund%20Details.md,5000,5000,0,3915,MOR20 Reseach \| Decentralized AI Day NY
+0x8388298D1B9601CE2da78127605570b4878f2cFa,4,0,https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Multisig.md,30000,30000,0,23490,"Protection \| MRI 2 Request \| Review support of audits, direct write to contracts"
+0xa95ef910672541c897E4cC2C76E8e68F9aaD00E8,6,0,https://github.com/ 4MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/ 4Top%2010%20Reasons%20People%20Get%20Excited%20About%20Morpheus.md,425000,425000,0,332775,4Project Integrations \| GenLayer \| Mor20 \| Pool Creation/Strategy
 0x17726F58ba7350A33d08d1BBad623E155fA2dAA0,4,0,Jungle Clown1,3217,3217,0,2518.911,Consult
 0x01f91EfB822164e807C7BcBc3C40C4484263dFD8,4,0,Jungle Clown 5,10000,10000,0,7830,Security Assistance
 0x2ed6D479C15272438c38c7c47994e3e8df3138c8,4,0,Org,5000,5000,0,3915,Automation of Weights Tracking
