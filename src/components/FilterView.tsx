@@ -2,6 +2,7 @@ import { Checkbox } from "antd";
 import { MRI } from "../utils/constants";
 import { useFilterReducer } from "../reducer/FilterReducer";
 import Search from "antd/es/input/Search";
+import DownloadButton from "./DownloadButton";
 
 export default function FilterView() {
   const [state, dispatch] = useFilterReducer();
@@ -73,6 +74,29 @@ export default function FilterView() {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="mb-3">
+        <div className="text-lg font-bold mb-1">CSV Download</div>
+        <div className="flex gap-3">
+          <div>Snapshot</div>
+
+          <DownloadButton link="/csv/snapshot1.csv" filename="snapshot1.csv">
+            1
+          </DownloadButton>
+
+          <DownloadButton link="/csv/snapshot2.csv" filename="snapshot2.csv">
+            2
+          </DownloadButton>
+
+          <DownloadButton link="/csv/snapshot3.csv" filename="snapshot3.csv">
+            3
+          </DownloadButton>
+
+          <DownloadButton link="/csv/snapshot4.csv" filename="snapshot4.csv">
+            4
+          </DownloadButton>
+        </div>
       </div>
     </div>
   );
