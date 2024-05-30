@@ -69,9 +69,6 @@ export default function CodeSnapshot({
 
             {record.mriSecondary > 0 && (
               <CodeBadge>
-                {parseInt(record.impliedValue.toFixed(0)).toLocaleString(
-                  "en-US"
-                )}
                 Secondary MRI {record.mriSecondary}
               </CodeBadge>
             )}
